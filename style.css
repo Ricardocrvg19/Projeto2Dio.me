@@ -1,0 +1,190 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Organiza header, hr e grid-container em coluna */
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo do header horizontalmente */
+    align-items: center; /* Centraliza o conteúdo do header verticalmente */
+    padding: 20px;
+    background-color: #080707;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    color: #ffffff; /* Garante que o header ocupe toda a largura */
+}
+.fig1 {
+  
+    text-align: center; /* Centraliza o texto e elementos inline, como a imagem se for display: inline-block */
+    margin-left: auto;   /* Centraliza o bloco se a largura for definida */
+    margin-right: auto;  /* Centraliza o bloco se a largura for definida */
+    display: block;      /* Garante que figure se comporte como um bloco para margin: auto funcionar */
+}
+
+.fig1 img {
+    display: block; /* Garante que a imagem se comporte como um bloco para margin: auto funcionar */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+.fig1 img:hover {
+   width: 300px;
+}
+
+hr {
+    width: 100%; /* Garante que a linha ocupe toda a largura */
+    border: 0;
+    height: 1px;
+    margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+}
+
+.container{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Três colunas de tamanho igual (1fr) */
+    gap: 20px; /* Espaço entre as colunas */
+    flex: 1; /* Permite que o grid-container ocupe o espaço restante verticalmente */
+    padding: 0 20px 20px 20px; /* Adiciona padding ao redor do grid (topo, direita, baixo, esquerda) */
+    max-width: 1200px; /* Opcional: Limita a largura máxima do conteúdo */
+    margin: 0 auto;
+}
+
+/* Estilo para a barra lateral (primeira coluna do grid) */
+.sidebar {
+    background-color: #000b0b;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    color: white; 
+    margin: 0;
+}
+
+.sidebar aside ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0;
+}
+
+.sidebar aside ul li {
+    margin-bottom: 30px; /* Espaçamento entre os itens da lista */
+}
+
+.sidebar aside ul li a {
+    display: block;
+    padding: 10px 0; /* Padding interno para os links (0 para direita/esquerda para alinhamento) */
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.sidebar aside ul li a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+main h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+}
+
+main blockquote{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;   
+}
+
+.section1 figcaption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.section2 img{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section2 figcaption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.summary {
+    background-color: #000b0b;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    color: white; 
+    margin: 0;
+}
+
+.summary ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0;
+}
+
+.summary ul li {
+    margin-bottom: 30px; /* Espaçamento entre os itens da lista */
+}
+
+.summary  ul li a {
+    display: block;
+    padding: 10px 0; /* Padding interno para os links (0 para direita/esquerda para alinhamento) */
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.summary  ul li a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+.centraliza-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 10px;
+
+    figcaption{
+        margin-top: 10px;
+    }
+}
+
+.centraliza-uniforme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 22px 10px;
+
+    figcaption{
+        margin-top: 10px;
+    }
+}
