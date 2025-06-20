@@ -9,7 +9,7 @@ Uma página web dedicada a contar a rica e gloriosa história do Club de Regatas
 
 Este projeto é uma single-page application que explora os marcos históricos do Vasco da Gama, com foco em sua fundação, o lendário time dos "Camisas Negras" e a "Resposta Histórica" – um símbolo da luta do clube pela inclusão e contra a discriminação no esporte. A página apresenta um layout responsivo e de fácil navegação, utilizando as melhores práticas de HTML e CSS.
 
-## ✨ Destaques do Projeto
+## ✨ Destaques do Projeto - [👉 See the Project HERE](https://wikipediavascaina.netlify.app/)
 
 * **História Detalhada:** Mergulhe nos eventos cruciais que moldaram o Vasco.
 * **Seção "Camisas Negras":** Conheça a equipe pioneira que desafiou o racismo no futebol brasileiro.
